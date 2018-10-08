@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="6.062" tests="22" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1255"/>
+    <property name="java.class.path" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers\target\test-classes;C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers\target\classes;C:\Users\amirelm\.m2\repository\org\osgi\org.osgi.core\4.0.0\org.osgi.core-4.0.0.jar;C:\Users\TEMP\BugMiner\tested_project\tika\tika-core\target\classes;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-tika\0.1\vorbis-java-tika-0.1.jar;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-core\0.1\vorbis-java-core-0.1-tests.jar;C:\Users\amirelm\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.6.0\org.apache.felix.scr.annotations-1.6.0.jar;C:\Users\amirelm\.m2\repository\edu\ucar\netcdf\4.2-min\netcdf-4.2-min.jar;C:\Users\amirelm\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Users\amirelm\.m2\repository\org\apache\james\apache-mime4j-core\0.7.2\apache-mime4j-core-0.7.2.jar;C:\Users\amirelm\.m2\repository\org\apache\james\apache-mime4j-dom\0.7.2\apache-mime4j-dom-0.7.2.jar;C:\Users\amirelm\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\amirelm\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\amirelm\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\pdfbox\1.7.0\pdfbox-1.7.0.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\fontbox\1.7.0\fontbox-1.7.0.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\jempbox\1.7.0\jempbox-1.7.0.jar;C:\Users\amirelm\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\amirelm\.m2\repository\org\bouncycastle\bcmail-jdk15\1.45\bcmail-jdk15-1.45.jar;C:\Users\amirelm\.m2\repository\org\bouncycastle\bcprov-jdk15\1.45\bcprov-jdk15-1.45.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi\3.8\poi-3.8.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-scratchpad\3.8\poi-scratchpad-3.8.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-ooxml\3.8\poi-ooxml-3.8.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.8\poi-ooxml-schemas-3.8.jar;C:\Users\amirelm\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\amirelm\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\amirelm\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0.1\geronimo-stax-api_1.0_spec-1.0.1.jar;C:\Users\amirelm\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\amirelm\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\amirelm\.m2\repository\com\googlecode\mp4parser\isoparser\1.0-RC-1\isoparser-1.0-RC-1.jar;C:\Users\amirelm\.m2\repository\org\aspectj\aspectjrt\1.6.11\aspectjrt-1.6.11.jar;C:\Users\amirelm\.m2\repository\com\drewnoakes\metadata-extractor\2.6.2\metadata-extractor-2.6.2.jar;C:\Users\amirelm\.m2\repository\com\adobe\xmp\xmpcore\5.1.2\xmpcore-5.1.2.jar;C:\Users\amirelm\.m2\repository\xerces\xercesImpl\2.8.1\xercesImpl-2.8.1.jar;C:\Users\amirelm\.m2\repository\xml-apis\xml-apis\1.3.03\xml-apis-1.3.03.jar;C:\Users\amirelm\.m2\repository\de\l3s\boilerpipe\boilerpipe\1.1.0\boilerpipe-1.1.0.jar;C:\Users\amirelm\.m2\repository\rome\rome\0.9\rome-0.9.jar;C:\Users\amirelm\.m2\repository\jdom\jdom\1.0\jdom-1.0.jar;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-core\0.1\vorbis-java-core-0.1.jar;C:\Users\amirelm\.m2\repository\com\googlecode\juniversalchardet\juniversalchardet\1.0.3\juniversalchardet-1.0.3.jar;C:\Users\amirelm\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\amirelm\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\amirelm\.m2\repository\org\mockito\mockito-core\1.7\mockito-core-1.7.jar;C:\Users\amirelm\.m2\repository\org\objenesis\objenesis\1.0\objenesis-1.0.jar;C:\Users\amirelm\.m2\repository\org\slf4j\slf4j-log4j12\1.5.6\slf4j-log4j12-1.5.6.jar;C:\Users\amirelm\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="user.country.format" value="IL"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\amirelm\AppData\Local\Temp\surefire3135673889431643919\surefirebooter1401954669670370134.jar C:\Users\amirelm\AppData\Local\Temp\surefire3135673889431643919 2018-10-04T20-30-42_653-jvmRun1 surefire2192989752820529364tmp surefire_01327913591524495668tmp"/>
+    <property name="test" value="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers\target\test-classes;C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers\target\classes;C:\Users\amirelm\.m2\repository\org\osgi\org.osgi.core\4.0.0\org.osgi.core-4.0.0.jar;C:\Users\TEMP\BugMiner\tested_project\tika\tika-core\target\classes;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-tika\0.1\vorbis-java-tika-0.1.jar;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-core\0.1\vorbis-java-core-0.1-tests.jar;C:\Users\amirelm\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.6.0\org.apache.felix.scr.annotations-1.6.0.jar;C:\Users\amirelm\.m2\repository\edu\ucar\netcdf\4.2-min\netcdf-4.2-min.jar;C:\Users\amirelm\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Users\amirelm\.m2\repository\org\apache\james\apache-mime4j-core\0.7.2\apache-mime4j-core-0.7.2.jar;C:\Users\amirelm\.m2\repository\org\apache\james\apache-mime4j-dom\0.7.2\apache-mime4j-dom-0.7.2.jar;C:\Users\amirelm\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\amirelm\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\amirelm\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\pdfbox\1.7.0\pdfbox-1.7.0.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\fontbox\1.7.0\fontbox-1.7.0.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\jempbox\1.7.0\jempbox-1.7.0.jar;C:\Users\amirelm\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\amirelm\.m2\repository\org\bouncycastle\bcmail-jdk15\1.45\bcmail-jdk15-1.45.jar;C:\Users\amirelm\.m2\repository\org\bouncycastle\bcprov-jdk15\1.45\bcprov-jdk15-1.45.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi\3.8\poi-3.8.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-scratchpad\3.8\poi-scratchpad-3.8.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-ooxml\3.8\poi-ooxml-3.8.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.8\poi-ooxml-schemas-3.8.jar;C:\Users\amirelm\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\amirelm\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\amirelm\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0.1\geronimo-stax-api_1.0_spec-1.0.1.jar;C:\Users\amirelm\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\amirelm\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\amirelm\.m2\repository\com\googlecode\mp4parser\isoparser\1.0-RC-1\isoparser-1.0-RC-1.jar;C:\Users\amirelm\.m2\repository\org\aspectj\aspectjrt\1.6.11\aspectjrt-1.6.11.jar;C:\Users\amirelm\.m2\repository\com\drewnoakes\metadata-extractor\2.6.2\metadata-extractor-2.6.2.jar;C:\Users\amirelm\.m2\repository\com\adobe\xmp\xmpcore\5.1.2\xmpcore-5.1.2.jar;C:\Users\amirelm\.m2\repository\xerces\xercesImpl\2.8.1\xercesImpl-2.8.1.jar;C:\Users\amirelm\.m2\repository\xml-apis\xml-apis\1.3.03\xml-apis-1.3.03.jar;C:\Users\amirelm\.m2\repository\de\l3s\boilerpipe\boilerpipe\1.1.0\boilerpipe-1.1.0.jar;C:\Users\amirelm\.m2\repository\rome\rome\0.9\rome-0.9.jar;C:\Users\amirelm\.m2\repository\jdom\jdom\1.0\jdom-1.0.jar;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-core\0.1\vorbis-java-core-0.1.jar;C:\Users\amirelm\.m2\repository\com\googlecode\juniversalchardet\juniversalchardet\1.0.3\juniversalchardet-1.0.3.jar;C:\Users\amirelm\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\amirelm\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\amirelm\.m2\repository\org\mockito\mockito-core\1.7\mockito-core-1.7.jar;C:\Users\amirelm\.m2\repository\org\objenesis\objenesis\1.0\objenesis-1.0.jar;C:\Users\amirelm\.m2\repository\org\slf4j\slf4j-log4j12\1.5.6\slf4j-log4j12-1.5.6.jar;C:\Users\amirelm\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\amirelm"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\amirelm\AppData\Local\Temp\surefire3135673889431643919\surefirebooter1401954669670370134.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="amirelm"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1255"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\amirelm\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\amirelm\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="he"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\amirelm\AppData\Local\Programs\Maven\apache-maven-3.5.4\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jre1.8.0_181\bin;c:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Users\amirelm\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\amirelm\AppData\Local\Programs\Python\Python37-32\;C:\Users\amirelm\AppData\Local\Microsoft\WindowsApps;;C:\Users\TEMP\BugMiner\venv\Scripts;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testMasterFooter" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.969"/>
+  <testcase name="testWordArt" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.313"/>
+  <testcase name="testWord" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.359"/>
+  <testcase name="testNullHeaders" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
+  <testcase name="testExcel" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.141"/>
+  <testcase name="testExcelFormats" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.094"/>
+  <testcase name="testVarious" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.14"/>
+  <testcase name="testVariousPPTX" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.36"/>
+  <testcase name="testPowerPoint" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="1.125"/>
+  <testcase name="testWordFootnote" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.078"/>
+  <testcase name="testWordHTML" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.531"/>
+  <testcase name="testEmbeddedPDF" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.063"/>
+  <testcase name="testPowerPointCustomProperties" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
+  <testcase name="testWordNullStyle" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.172"/>
+  <testcase name="testWordPicturesInHeader" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.109"/>
+  <testcase name="testEmbeddedZipInPPTX" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.063"/>
+  <testcase name="testProtectedExcelSheets" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.078"/>
+  <testcase name="testUnsupportedPowerPoint" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.5"/>
+  <testcase name="testTextInsideTextBox" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0">
+    <error message="The Stream must not be null" type="java.lang.NullPointerException">java.lang.NullPointerException: The Stream must not be null
+	at org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest.getTestDocument(OOXMLParserTest.java:47)
+	at org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest.getXML(OOXMLParserTest.java:331)
+	at org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest.testTextInsideTextBox(OOXMLParserTest.java:909)
+</error>
+  </testcase>
+  <testcase name="testProtectedExcelFile" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.312"/>
+  <testcase name="testExcelCustomProperties" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.016"/>
+  <testcase name="testWordCustomProperties" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.015"/>
+</testsuite>

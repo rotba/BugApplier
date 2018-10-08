@@ -1,0 +1,10 @@
+diff --git a/tika-core/src/test/java/org/apache/tika/mime/MimeTypesReaderTest.java b/tika-core/src/test/java/org/apache/tika/mime/MimeTypesReaderTest.java
+index d1a741112..3933b4bce 100644
+--- a/tika-core/src/test/java/org/apache/tika/mime/MimeTypesReaderTest.java
++++ b/tika-core/src/test/java/org/apache/tika/mime/MimeTypesReaderTest.java
+@@ -186,5 +186,4 @@ public class MimeTypesReaderTest extends TestCase {
+         assertEquals(".ppt",ext);
+         assertEquals(".ppt",mt.getExtensions().get(0));
+     }
+-
+ }

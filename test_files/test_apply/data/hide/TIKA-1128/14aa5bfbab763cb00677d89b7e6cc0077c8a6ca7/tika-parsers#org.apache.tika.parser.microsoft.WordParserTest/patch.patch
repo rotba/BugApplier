@@ -1,0 +1,13 @@
+diff --git a/tika-parsers/src/test/java/org/apache/tika/parser/microsoft/WordParserTest.java b/tika-parsers/src/test/java/org/apache/tika/parser/microsoft/WordParserTest.java
+index 3d352b00c..c3770011b 100644
+--- a/tika-parsers/src/test/java/org/apache/tika/parser/microsoft/WordParserTest.java
++++ b/tika-parsers/src/test/java/org/apache/tika/parser/microsoft/WordParserTest.java
+@@ -330,4 +330,8 @@ public class WordParserTest extends TikaTest {
+         Logger.getRootLogger().setLevel(logLevelStart);
+       }
+     }
++
++    public void testTabularSymbol() throws Exception {
++        assertContains("one\ntwo", getXML("testWORD_tabular_symbol.doc").xml);
++    }
+ }

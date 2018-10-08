@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.tika.mime.MimeDetectionTest" time="0.375" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1255"/>
+    <property name="java.class.path" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-core\target\test-classes;C:\Users\TEMP\BugMiner\tested_project\tika\tika-core\target\classes;C:\Users\amirelm\.m2\repository\org\osgi\org.osgi.core\4.0.0\org.osgi.core-4.0.0.jar;C:\Users\amirelm\.m2\repository\org\osgi\org.osgi.compendium\4.0.0\org.osgi.compendium-4.0.0.jar;C:\Users\amirelm\.m2\repository\biz\aQute\bndlib\1.43.0\bndlib-1.43.0.jar;C:\Users\amirelm\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\amirelm\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="user.country.format" value="IL"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\amirelm\AppData\Local\Temp\surefire3578417624078645700\surefirebooter4738916819716896312.jar C:\Users\amirelm\AppData\Local\Temp\surefire3578417624078645700 2018-10-04T21-23-17_158-jvmRun1 surefire396752505638106325tmp surefire_01892356640528156475tmp"/>
+    <property name="test" value="org.apache.tika.mime.MimeDetectionTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-core\target\test-classes;C:\Users\TEMP\BugMiner\tested_project\tika\tika-core\target\classes;C:\Users\amirelm\.m2\repository\org\osgi\org.osgi.core\4.0.0\org.osgi.core-4.0.0.jar;C:\Users\amirelm\.m2\repository\org\osgi\org.osgi.compendium\4.0.0\org.osgi.compendium-4.0.0.jar;C:\Users\amirelm\.m2\repository\biz\aQute\bndlib\1.43.0\bndlib-1.43.0.jar;C:\Users\amirelm\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\amirelm\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\amirelm"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-core"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\amirelm\AppData\Local\Temp\surefire3578417624078645700\surefirebooter4738916819716896312.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="amirelm"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1255"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\amirelm\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\amirelm\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-core"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="he"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\amirelm\AppData\Local\Programs\Maven\apache-maven-3.5.4\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jre1.8.0_181\bin;c:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Users\amirelm\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\amirelm\AppData\Local\Programs\Python\Python37-32\;C:\Users\amirelm\AppData\Local\Microsoft\WindowsApps;;C:\Users\TEMP\BugMiner\venv\Scripts;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testMimeMagicStability" classname="org.apache.tika.mime.MimeDetectionTest" time="0.265"/>
+  <testcase name="testByteOrderMark" classname="org.apache.tika.mime.MimeDetectionTest" time="0"/>
+  <testcase name="testEmptyDocument" classname="org.apache.tika.mime.MimeDetectionTest" time="0.016"/>
+  <testcase name="testSuperTypes" classname="org.apache.tika.mime.MimeDetectionTest" time="0"/>
+  <testcase name="testNotXML" classname="org.apache.tika.mime.MimeDetectionTest" time="0.016"/>
+  <testcase name="testDetection" classname="org.apache.tika.mime.MimeDetectionTest" time="0.062">
+    <failure message="Test stream: [plotutils-bin-cgm-v3.cgm] is null!" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Test stream: [plotutils-bin-cgm-v3.cgm] is null!
+	at org.apache.tika.mime.MimeDetectionTest.testStream(MimeDetectionTest.java:135)
+	at org.apache.tika.mime.MimeDetectionTest.testFile(MimeDetectionTest.java:131)
+	at org.apache.tika.mime.MimeDetectionTest.testDetection(MimeDetectionTest.java:70)
+</failure>
+  </testcase>
+</testsuite>

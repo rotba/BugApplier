@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.tika.parser.microsoft.PowerPointParserTest" time="1.125" tests="8" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1255"/>
+    <property name="java.class.path" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers\target\test-classes;C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers\target\classes;C:\Users\amirelm\.m2\repository\org\osgi\org.osgi.core\4.0.0\org.osgi.core-4.0.0.jar;C:\Users\TEMP\BugMiner\tested_project\tika\tika-core\target\classes;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-tika\0.1\vorbis-java-tika-0.1.jar;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-core\0.1\vorbis-java-core-0.1-tests.jar;C:\Users\amirelm\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.6.0\org.apache.felix.scr.annotations-1.6.0.jar;C:\Users\amirelm\.m2\repository\edu\ucar\netcdf\4.2-min\netcdf-4.2-min.jar;C:\Users\amirelm\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Users\amirelm\.m2\repository\org\apache\james\apache-mime4j-core\0.7.2\apache-mime4j-core-0.7.2.jar;C:\Users\amirelm\.m2\repository\org\apache\james\apache-mime4j-dom\0.7.2\apache-mime4j-dom-0.7.2.jar;C:\Users\amirelm\.m2\repository\org\apache\commons\commons-compress\1.5\commons-compress-1.5.jar;C:\Users\amirelm\.m2\repository\org\tukaani\xz\1.2\xz-1.2.jar;C:\Users\amirelm\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\pdfbox\1.8.2\pdfbox-1.8.2.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\fontbox\1.8.2\fontbox-1.8.2.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\jempbox\1.8.2\jempbox-1.8.2.jar;C:\Users\amirelm\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\amirelm\.m2\repository\org\bouncycastle\bcmail-jdk15\1.45\bcmail-jdk15-1.45.jar;C:\Users\amirelm\.m2\repository\org\bouncycastle\bcprov-jdk15\1.45\bcprov-jdk15-1.45.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi\3.10-beta2\poi-3.10-beta2.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-scratchpad\3.10-beta2\poi-scratchpad-3.10-beta2.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-ooxml\3.10-beta2\poi-ooxml-3.10-beta2.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.10-beta2\poi-ooxml-schemas-3.10-beta2.jar;C:\Users\amirelm\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\amirelm\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\amirelm\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0.1\geronimo-stax-api_1.0_spec-1.0.1.jar;C:\Users\amirelm\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\amirelm\.m2\repository\org\ow2\asm\asm-debug-all\4.1\asm-debug-all-4.1.jar;C:\Users\amirelm\.m2\repository\com\googlecode\mp4parser\isoparser\1.0-RC-1\isoparser-1.0-RC-1.jar;C:\Users\amirelm\.m2\repository\org\aspectj\aspectjrt\1.6.11\aspectjrt-1.6.11.jar;C:\Users\amirelm\.m2\repository\com\drewnoakes\metadata-extractor\2.6.2\metadata-extractor-2.6.2.jar;C:\Users\amirelm\.m2\repository\com\adobe\xmp\xmpcore\5.1.2\xmpcore-5.1.2.jar;C:\Users\amirelm\.m2\repository\xerces\xercesImpl\2.8.1\xercesImpl-2.8.1.jar;C:\Users\amirelm\.m2\repository\xml-apis\xml-apis\1.3.03\xml-apis-1.3.03.jar;C:\Users\amirelm\.m2\repository\de\l3s\boilerpipe\boilerpipe\1.1.0\boilerpipe-1.1.0.jar;C:\Users\amirelm\.m2\repository\rome\rome\0.9\rome-0.9.jar;C:\Users\amirelm\.m2\repository\jdom\jdom\1.0\jdom-1.0.jar;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-core\0.1\vorbis-java-core-0.1.jar;C:\Users\amirelm\.m2\repository\com\googlecode\juniversalchardet\juniversalchardet\1.0.3\juniversalchardet-1.0.3.jar;C:\Users\amirelm\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\amirelm\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\amirelm\.m2\repository\org\mockito\mockito-core\1.7\mockito-core-1.7.jar;C:\Users\amirelm\.m2\repository\org\objenesis\objenesis\1.0\objenesis-1.0.jar;C:\Users\amirelm\.m2\repository\org\slf4j\slf4j-log4j12\1.5.6\slf4j-log4j12-1.5.6.jar;C:\Users\amirelm\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="user.country.format" value="IL"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\amirelm\AppData\Local\Temp\surefire5996614165467492970\surefirebooter6389387370973652487.jar C:\Users\amirelm\AppData\Local\Temp\surefire5996614165467492970 2018-10-04T21-24-12_379-jvmRun1 surefire3307960282905580139tmp surefire_07035886018660306504tmp"/>
+    <property name="test" value="org.apache.tika.parser.microsoft.PowerPointParserTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers\target\test-classes;C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers\target\classes;C:\Users\amirelm\.m2\repository\org\osgi\org.osgi.core\4.0.0\org.osgi.core-4.0.0.jar;C:\Users\TEMP\BugMiner\tested_project\tika\tika-core\target\classes;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-tika\0.1\vorbis-java-tika-0.1.jar;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-core\0.1\vorbis-java-core-0.1-tests.jar;C:\Users\amirelm\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.6.0\org.apache.felix.scr.annotations-1.6.0.jar;C:\Users\amirelm\.m2\repository\edu\ucar\netcdf\4.2-min\netcdf-4.2-min.jar;C:\Users\amirelm\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Users\amirelm\.m2\repository\org\apache\james\apache-mime4j-core\0.7.2\apache-mime4j-core-0.7.2.jar;C:\Users\amirelm\.m2\repository\org\apache\james\apache-mime4j-dom\0.7.2\apache-mime4j-dom-0.7.2.jar;C:\Users\amirelm\.m2\repository\org\apache\commons\commons-compress\1.5\commons-compress-1.5.jar;C:\Users\amirelm\.m2\repository\org\tukaani\xz\1.2\xz-1.2.jar;C:\Users\amirelm\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\pdfbox\1.8.2\pdfbox-1.8.2.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\fontbox\1.8.2\fontbox-1.8.2.jar;C:\Users\amirelm\.m2\repository\org\apache\pdfbox\jempbox\1.8.2\jempbox-1.8.2.jar;C:\Users\amirelm\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\amirelm\.m2\repository\org\bouncycastle\bcmail-jdk15\1.45\bcmail-jdk15-1.45.jar;C:\Users\amirelm\.m2\repository\org\bouncycastle\bcprov-jdk15\1.45\bcprov-jdk15-1.45.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi\3.10-beta2\poi-3.10-beta2.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-scratchpad\3.10-beta2\poi-scratchpad-3.10-beta2.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-ooxml\3.10-beta2\poi-ooxml-3.10-beta2.jar;C:\Users\amirelm\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.10-beta2\poi-ooxml-schemas-3.10-beta2.jar;C:\Users\amirelm\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\amirelm\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\amirelm\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0.1\geronimo-stax-api_1.0_spec-1.0.1.jar;C:\Users\amirelm\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\amirelm\.m2\repository\org\ow2\asm\asm-debug-all\4.1\asm-debug-all-4.1.jar;C:\Users\amirelm\.m2\repository\com\googlecode\mp4parser\isoparser\1.0-RC-1\isoparser-1.0-RC-1.jar;C:\Users\amirelm\.m2\repository\org\aspectj\aspectjrt\1.6.11\aspectjrt-1.6.11.jar;C:\Users\amirelm\.m2\repository\com\drewnoakes\metadata-extractor\2.6.2\metadata-extractor-2.6.2.jar;C:\Users\amirelm\.m2\repository\com\adobe\xmp\xmpcore\5.1.2\xmpcore-5.1.2.jar;C:\Users\amirelm\.m2\repository\xerces\xercesImpl\2.8.1\xercesImpl-2.8.1.jar;C:\Users\amirelm\.m2\repository\xml-apis\xml-apis\1.3.03\xml-apis-1.3.03.jar;C:\Users\amirelm\.m2\repository\de\l3s\boilerpipe\boilerpipe\1.1.0\boilerpipe-1.1.0.jar;C:\Users\amirelm\.m2\repository\rome\rome\0.9\rome-0.9.jar;C:\Users\amirelm\.m2\repository\jdom\jdom\1.0\jdom-1.0.jar;C:\Users\amirelm\.m2\repository\org\gagravarr\vorbis-java-core\0.1\vorbis-java-core-0.1.jar;C:\Users\amirelm\.m2\repository\com\googlecode\juniversalchardet\juniversalchardet\1.0.3\juniversalchardet-1.0.3.jar;C:\Users\amirelm\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\amirelm\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\amirelm\.m2\repository\org\mockito\mockito-core\1.7\mockito-core-1.7.jar;C:\Users\amirelm\.m2\repository\org\objenesis\objenesis\1.0\objenesis-1.0.jar;C:\Users\amirelm\.m2\repository\org\slf4j\slf4j-log4j12\1.5.6\slf4j-log4j12-1.5.6.jar;C:\Users\amirelm\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\amirelm"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\amirelm\AppData\Local\Temp\surefire5996614165467492970\surefirebooter6389387370973652487.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="amirelm"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1255"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\amirelm\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\amirelm\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="C:\Users\TEMP\BugMiner\tested_project\tika\tika-parsers"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="he"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\amirelm\AppData\Local\Programs\Maven\apache-maven-3.5.4\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jre1.8.0_181\bin;c:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Users\amirelm\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\amirelm\AppData\Local\Programs\Python\Python37-32\;C:\Users\amirelm\AppData\Local\Microsoft\WindowsApps;;C:\Users\TEMP\BugMiner\venv\Scripts;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testCustomProperties" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.375"/>
+  <testcase name="testEmbeddedPlacedholder" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.641"/>
+  <testcase name="testPowerPointParser" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.015"/>
+  <testcase name="testVarious" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.016"/>
+  <testcase name="testMasterFooter" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.016">
+    <failure message="expected:&lt;-1&gt; but was:&lt;0&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<-1> but was:<0>
+	at org.apache.tika.parser.microsoft.PowerPointParserTest.testMasterFooter(PowerPointParserTest.java:146)
+]]></failure>
+  </testcase>
+  <testcase name="testMasterText2" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.015">
+    <failure message="expected:&lt;-1&gt; but was:&lt;0&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<-1> but was:<0>
+	at org.apache.tika.parser.microsoft.PowerPointParserTest.testMasterText2(PowerPointParserTest.java:191)
+]]></failure>
+  </testcase>
+  <testcase name="testMasterText" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0">
+    <failure message="expected:&lt;-1&gt; but was:&lt;38&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<-1> but was:<38>
+	at org.apache.tika.parser.microsoft.PowerPointParserTest.testMasterText(PowerPointParserTest.java:169)
+]]></failure>
+  </testcase>
+  <testcase name="testAutoDatePPT" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.032">
+    <failure message="&lt;p class=&quot;slide-content&quot;&gt;Now&lt;br/&gt;&#10;*&lt;br/&gt;&#10;*&lt;br/&gt; not found in:&#10;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta name=&quot;cp:revision&quot; content=&quot;3&quot;/&gt;&#10;&lt;meta name=&quot;date&quot; content=&quot;2011-12-16T21:11:07Z&quot;/&gt;&#10;&lt;meta name=&quot;Company&quot; content=&quot;Microsoft&quot;/&gt;&#10;&lt;meta name=&quot;meta:word-count&quot; content=&quot;5&quot;/&gt;&#10;&lt;meta name=&quot;dc:creator&quot; content=&quot;Albert Law 2&quot;/&gt;&#10;&lt;meta name=&quot;extended-properties:Company&quot; content=&quot;Microsoft&quot;/&gt;&#10;&lt;meta name=&quot;Word-Count&quot; content=&quot;5&quot;/&gt;&#10;&lt;meta name=&quot;dcterms:created&quot; content=&quot;2011-12-16T21:06:02Z&quot;/&gt;&#10;&lt;meta name=&quot;dcterms:modified&quot; content=&quot;2011-12-16T21:11:07Z&quot;/&gt;&#10;&lt;meta name=&quot;Last-Modified&quot; content=&quot;2011-12-16T21:11:07Z&quot;/&gt;&#10;&lt;meta name=&quot;Last-Save-Date&quot; content=&quot;2011-12-16T21:11:07Z&quot;/&gt;&#10;&lt;meta name=&quot;meta:save-date&quot; content=&quot;2011-12-16T21:11:07Z&quot;/&gt;&#10;&lt;meta name=&quot;dc:title&quot; content=&quot;Now&quot;/&gt;&#10;&lt;meta name=&quot;Application-Name&quot; content=&quot;Microsoft Office PowerPoint&quot;/&gt;&#10;&lt;meta name=&quot;modified&quot; content=&quot;2011-12-16T21:11:07Z&quot;/&gt;&#10;&lt;meta name=&quot;Edit-Time&quot; content=&quot;2352010000&quot;/&gt;&#10;&lt;meta name=&quot;Content-Type&quot; content=&quot;application/vnd.ms-powerpoint&quot;/&gt;&#10;&lt;meta name=&quot;Slide-Count&quot; content=&quot;1&quot;/&gt;&#10;&lt;meta name=&quot;creator&quot; content=&quot;Albert Law 2&quot;/&gt;&#10;&lt;meta name=&quot;meta:author&quot; content=&quot;Albert Law 2&quot;/&gt;&#10;&lt;meta name=&quot;extended-properties:Application&quot; content=&quot;Microsoft Office PowerPoint&quot;/&gt;&#10;&lt;meta name=&quot;meta:creation-date&quot; content=&quot;2011-12-16T21:06:02Z&quot;/&gt;&#10;&lt;meta name=&quot;meta:last-author&quot; content=&quot;Albert Law 2&quot;/&gt;&#10;&lt;meta name=&quot;meta:slide-count&quot; content=&quot;1&quot;/&gt;&#10;&lt;meta name=&quot;Creation-Date&quot; content=&quot;2011-12-16T21:06:02Z&quot;/&gt;&#10;&lt;meta name=&quot;xmpTPg:NPages&quot; content=&quot;1&quot;/&gt;&#10;&lt;meta name=&quot;Last-Author&quot; content=&quot;Albert Law 2&quot;/&gt;&#10;&lt;meta name=&quot;Revision-Number&quot; content=&quot;3&quot;/&gt;&#10;&lt;meta name=&quot;Author&quot; content=&quot;Albert Law 2&quot;/&gt;&#10;&lt;title&gt;Now&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&lt;div class=&quot;slideShow&quot;&gt;&lt;div class=&quot;slide&quot;&gt;&lt;p class=&quot;slide-master-content&quot;&gt;*&lt;br/&gt;&#10;*&lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p class=&quot;slide-content&quot;&gt;Now&lt;br/&gt;&#10;*&lt;br/&gt;&#10;*&lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/div&gt;&#10;&lt;div class=&quot;slideNotes&quot;&gt;*&lt;br/&gt;&#10;*&lt;br/&gt;&#10;&lt;/div&gt;&#10;&lt;/body&gt;&lt;/html&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: 
+<p class="slide-content">Now<br/>
+*<br/>
+*<br/> not found in:
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="cp:revision" content="3"/>
+<meta name="date" content="2011-12-16T21:11:07Z"/>
+<meta name="Company" content="Microsoft"/>
+<meta name="meta:word-count" content="5"/>
+<meta name="dc:creator" content="Albert Law 2"/>
+<meta name="extended-properties:Company" content="Microsoft"/>
+<meta name="Word-Count" content="5"/>
+<meta name="dcterms:created" content="2011-12-16T21:06:02Z"/>
+<meta name="dcterms:modified" content="2011-12-16T21:11:07Z"/>
+<meta name="Last-Modified" content="2011-12-16T21:11:07Z"/>
+<meta name="Last-Save-Date" content="2011-12-16T21:11:07Z"/>
+<meta name="meta:save-date" content="2011-12-16T21:11:07Z"/>
+<meta name="dc:title" content="Now"/>
+<meta name="Application-Name" content="Microsoft Office PowerPoint"/>
+<meta name="modified" content="2011-12-16T21:11:07Z"/>
+<meta name="Edit-Time" content="2352010000"/>
+<meta name="Content-Type" content="application/vnd.ms-powerpoint"/>
+<meta name="Slide-Count" content="1"/>
+<meta name="creator" content="Albert Law 2"/>
+<meta name="meta:author" content="Albert Law 2"/>
+<meta name="extended-properties:Application" content="Microsoft Office PowerPoint"/>
+<meta name="meta:creation-date" content="2011-12-16T21:06:02Z"/>
+<meta name="meta:last-author" content="Albert Law 2"/>
+<meta name="meta:slide-count" content="1"/>
+<meta name="Creation-Date" content="2011-12-16T21:06:02Z"/>
+<meta name="xmpTPg:NPages" content="1"/>
+<meta name="Last-Author" content="Albert Law 2"/>
+<meta name="Revision-Number" content="3"/>
+<meta name="Author" content="Albert Law 2"/>
+<title>Now</title>
+</head>
+<body><div class="slideShow"><div class="slide"><p class="slide-master-content">*<br/>
+*<br/>
+</p>
+<p class="slide-content">Now<br/>
+*<br/>
+*<br/>
+</p>
+</div>
+</div>
+<div class="slideNotes">*<br/>
+*<br/>
+</div>
+</body></html>
+	at org.apache.tika.parser.microsoft.PowerPointParserTest.testAutoDatePPT(PowerPointParserTest.java:242)
+]]></failure>
+  </testcase>
+</testsuite>

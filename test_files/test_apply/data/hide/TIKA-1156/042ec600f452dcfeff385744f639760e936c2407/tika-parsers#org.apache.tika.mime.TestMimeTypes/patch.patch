@@ -1,0 +1,19 @@
+diff --git a/tika-parsers/src/test/java/org/apache/tika/mime/TestMimeTypes.java b/tika-parsers/src/test/java/org/apache/tika/mime/TestMimeTypes.java
+index f73d3885a..f771df1a4 100644
+--- a/tika-parsers/src/test/java/org/apache/tika/mime/TestMimeTypes.java
++++ b/tika-parsers/src/test/java/org/apache/tika/mime/TestMimeTypes.java
+@@ -630,7 +630,14 @@ public class TestMimeTypes extends TestCase {
+    }
+ 
+     public void testAMR() throws IOException {
++        // AMR matches on name, data or both
+         assertTypeDetection("testAMR.amr", "audio/amr");
++        
++        // AMR-WB subtype shares extension, so needs data to identify
++        assertTypeDetection("testAMR-WB.amr", "audio/amr", "audio/amr-wb", "audio/amr-wb");
++        
++        // Ditto for the AMR-WB+ subtype, which we don't have a sample file of yet
++        //assertTypeDetection("testAMR-WB+.amr", "audio/amr", "audio/amr-wb+", "audio/amr-wb+");
+     }
+     
+     public void testEmlx() throws IOException {

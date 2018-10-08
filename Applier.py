@@ -1,8 +1,9 @@
 import os
 import git
-import bug.bug as my_bug
+from mvnpy import bug as mvn_bug
+from mvnpy import Repo
 
-DATABASE = os.path.join(os.getcwd(), 'results')
+DATABASE = r'C:\BugsDB'
 
 class Applier(object):
 
@@ -12,7 +13,7 @@ class Applier(object):
         data_dir = os.path.join(self._path, 'data')
         if not os.path.isdir(data_dir):
             os.makedirs(data_dir)
-        self._data_handler = my_bug.Bug_data_handler(data_dir)
+        self._data_handler = mvn_bug.Bug_data_handler(data_dir)
         git.Git(self._path).init()
         try:
             git.Git(self._path).clone(project_url)
@@ -29,9 +30,7 @@ class Applier(object):
     def apply(self, bug):
         buggy_commit = bug.parent
         patch_path = self.data_handler.get_patch(bug)
-        self._repo.git.reset('--hard')
-        self._repo.git.clean('-xdf')
-        self._repo.git.checkout(buggy_commit)
+        self._repo.git.checkout(buggy_commit, '-f')
         self._repo.git.execute(['git', 'apply', patch_path])
 
     # Gets all the bugs in issue_key/commit_hexsha
