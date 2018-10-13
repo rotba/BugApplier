@@ -7,13 +7,10 @@ DATABASE = r'C:\BugsDB'
 
 class Applier(object):
 
-    def __init__(self, project_url, path, issue=None):
+    def __init__(self, project_url, path):
         self._path = path
         proj_name = project_url.rsplit('/', 1)[1]
-        data_dir = os.path.join(self._path, 'data')
-        if not os.path.isdir(data_dir):
-            os.makedirs(data_dir)
-        self._data_handler = mvn_bug.Bug_data_handler(data_dir)
+        self._data_handler = mvn_bug.Bug_data_handler(os.path.join(DATABASE, proj_name + '\\data'))
         git.Git(self._path).init()
         try:
             git.Git(self._path).clone(project_url)
@@ -21,10 +18,6 @@ class Applier(object):
             if 'already exists and is not an empty directory.' in str(e):
                 pass
         self._repo = git.Repo(os.path.join(self._path, proj_name))
-        if not issue == None:
-            self._data_handler.fetch_issue_data(os.path.join(DATABASE, proj_name + '\\data'), issue)
-        else:
-            self._data_handler.fetch_all_data(os.path.join(DATABASE, proj_name + '\\data'))
 
     #Applies the bug on the project
     def apply(self, bug):
