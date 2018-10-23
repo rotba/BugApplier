@@ -13,6 +13,8 @@ class TestApplier(unittest.TestCase):
 
     def setUp(self):
         pass
+        if not os.path.isdir(os.path.join(Applier.DATABASE,'tika')):
+            shutil.copytree(os.path.join(os.getcwd(),'static_files\\test_data\\tika'), os.path.join(Applier.DATABASE,'tika'))
 
     def tearDown(self):
         pass

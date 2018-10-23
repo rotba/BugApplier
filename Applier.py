@@ -3,7 +3,7 @@ import git
 from mvnpy import bug as mvn_bug
 from mvnpy import Repo
 
-DATABASE = r'C:\BugsDB'
+DATABASE = r'C:\Users\TEMP\BugsDB'
 
 class Applier(object):
 
@@ -28,6 +28,8 @@ class Applier(object):
 
     #Applies the bug on the project
     def apply(self, bug):
+        self._repo.git.add('.')
+        self._repo.git.clean('-f')
         buggy_commit = bug.parent
         patch_path = self.data_handler.get_patch(bug)
         self._repo.git.checkout(buggy_commit, '-f')
