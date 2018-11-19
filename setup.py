@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-install_requires = ['mvnpy']
+install_requires = ['mvnpy', 'pyswarm', 'sfl_diagnoser', 'javalang']
 
 setup(
     name='BugApplier',
