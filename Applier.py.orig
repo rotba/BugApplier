@@ -3,7 +3,11 @@ import git
 from mvnpy import bug as mvn_bug
 from mvnpy import Repo
 
-DATABASE = r'C:\BugsDB'
+<<<<<<< HEAD
+DATABASE = r'C:\OUT\BugsDB'
+=======
+DATABASE = r'C:\Users\TEMP\BugsDB'
+>>>>>>> 45c3299395941cf32497302b4bea99044f6ae66f
 
 class Applier(object):
 
