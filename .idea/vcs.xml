@@ -8,9 +8,17 @@
     <mapping directory="$PROJECT_DIR$/test_files/test_apply/tika" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/test_files/test_init" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/test_files/test_init/tika" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tests" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tests/test_files/test_apply" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tests/test_files/test_apply/tika" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tests/test_files/test_apply_generated_test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tests/test_files/test_apply_generated_test/tika" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tests/test_files/test_apply_generated_test_tika_56" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tests/test_files/test_apply_generated_test_tika_56/tika" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tests/test_files/test_apply_tika_56" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tests/test_files/test_apply_tika_56/tika" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tests/test_files/test_init" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tests/test_files/test_init/tika" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tests/tika" vcs="Git" />
   </component>
 </project>
